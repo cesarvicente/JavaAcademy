@@ -14,7 +14,6 @@ class TestaFuncionario {
 		totalizador.adiciona(joaquim);
 		
 		System.out.println(totalizador.getTotal());
-		System.out.println("Teste de Comit");
 	}
 
 }
