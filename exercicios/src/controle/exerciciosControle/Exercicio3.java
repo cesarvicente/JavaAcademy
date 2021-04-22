@@ -13,8 +13,8 @@ public class Exercicio3 {
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
-		int nota1 = 0;
-		int nota2 = 0;
+		double nota1 = 0;
+		double nota2 = 0;
 		
 		System.out.printf("Digite a 1º nota: ");
 		nota1 = entrada.nextDouble();
