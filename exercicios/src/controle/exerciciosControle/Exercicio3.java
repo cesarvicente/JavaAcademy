@@ -13,24 +13,26 @@ public class Exercicio3 {
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
-		double nota1 = 0;
-		double nota2 = 0;
 		
-		System.out.printf("Digite a 1º nota: ");
-		nota1 = entrada.nextDouble();
-		System.out.printf("Digite a 2º nota: ");
-		nota2 = entrada.nextDouble();
-		
+		double nota1 = 11;
+		double nota2 = 11;
+		while(!(nota1 >= 0 && nota1 <= 10)) {
+			System.out.printf("Digite a 1º nota: ");
+			nota1 = entrada.nextDouble();
+			if (!(nota1 >= 0 && nota1 <= 10))
+				System.out.println("O Valor deve estar entre 0 e 10\nTente Novamente!");		
+		}
+		while(!(nota2 >= 0 && nota2 <= 10)) {
+			System.out.printf("Digite a 2º nota: ");
+			nota2 = entrada.nextDouble();
+			if (!(nota2 >= 0 && nota2 <= 10))
+				System.out.println("O Valor deve estar entre 0 e 10\nTente Novamente!");
+		}
 		double media = (nota1 + nota2) / 2;
 		System.out.println("Media = "+media);
 		if (media >= 7) System.out.println("Aprovado!");
 		else if (media > 4) System.out.println("Recuperação");
 		else System.out.println("Reprovado!");
-		
-		
-		
-		
-		
 		entrada.close();
 		
 	}
