@@ -22,6 +22,8 @@ public class Exercicio4 {
 			entrada.close();
 			if (contador == 0) System.out.println(num1 + " é primo");
 			else System.out.println(num1 + " não é primo");
+			
+		entrada.close();	
 	}
 		
 }

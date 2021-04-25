@@ -1,5 +1,4 @@
 package controle.exerciciosControle;
-
 import java.util.Scanner;
 
 public class Exercicio1 {
@@ -7,6 +6,7 @@ public class Exercicio1 {
 	 	se ele está entre 0 e 10 e é par;				*/
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner entrada = new Scanner(System.in);
 		int numero = 0;
 		
