@@ -16,8 +16,8 @@ public class Exercicio9 {
 			
 			if (valor > maiorValor) maiorValor = valor;	
 		}
-		System.out.println("O Maior Valor Digitado foi: " + maiorValor);
 		entrada.close();
+		System.out.println("O Maior Valor Digitado foi: " + maiorValor);
 		System.out.println("Programa Finalizado!");
 		
 	}
