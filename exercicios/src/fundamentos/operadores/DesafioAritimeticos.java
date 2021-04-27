@@ -1,13 +1,7 @@
 package fundamentos.operadores;
 
 public class DesafioAritimeticos {
-
-	
 	public static void main(String[] args) {
-		
-//		int a = 3 * 4 - 10;
-//		int b = (int) Math.pow(a, 3);
-//		System.out.println(b);
 		
 		int f1a = 3 + 2;
 		int f1b = 6 * f1a;
@@ -27,7 +21,6 @@ public class DesafioAritimeticos {
 		
 		int resultado = r3 / r4;
 		System.out.println(resultado);
-		
 		
 	}
 }
