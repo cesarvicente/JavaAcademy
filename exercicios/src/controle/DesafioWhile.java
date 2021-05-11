@@ -25,10 +25,10 @@ public class DesafioWhile {
 			System.out.println("Digite o valor da nota: ");
 			nota = entrada.nextDouble();
 			if (nota >= 0 && nota <= 10) {
-				System.out.printf("Valor %.1f registrado!\n", nota);
 				total += nota;
 				contador++;
-			} else if (nota != -1) {
+				System.out.printf("Valor %.1f registrado!\n", nota);
+			 } else if (nota != -1) {
 				System.out.println("Valor Digitado não é válido");
 			} else {
 				System.out.println("Programa Encerrado!");
