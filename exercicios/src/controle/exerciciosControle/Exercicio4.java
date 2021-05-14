@@ -11,16 +11,16 @@ public class Exercicio4 {
 		
 		int num1 = entrada.nextInt();
 		int resultado = 0; 
-		int contador = 0;
+		boolean contador = false;
 		
 		for(int i = 2 ; i < num1 ; i++) {
 			
 			resultado = num1 % i;
-			if (resultado == 0) { contador++;	break;}
+			if (resultado == 0) { contador = true;	break;}
 		}
-		if (num1 == 1) contador = 1;
+		if (num1 == 1) contador = true;
 			entrada.close();
-			if (contador == 0) System.out.println(num1 + " é primo");
+			if (contador == false) System.out.println(num1 + " é primo");
 			else System.out.println(num1 + " não é primo");
 			
 		entrada.close();	
