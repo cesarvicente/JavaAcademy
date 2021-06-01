@@ -30,7 +30,7 @@ public class ConjuntoBaguncado {
 		System.out.println("Tamanho é: " + conjunto.size());
 		
 		System.out.println(conjunto.contains('x'));
-		System.out.println(conjunto.contains(1));
+		System.out.println(conjunto.contains(1)); 
 		System.out.println(conjunto.contains(true));
 		
 		
